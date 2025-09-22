@@ -11,35 +11,34 @@ public class Prime {
     private Long id;
 
     private String fonction;
-    private Double etranger;
-    private Double interieur;
 
-    // --- Getters et Setters ---
-    public Long getId() {
-        return id;
-    }
-    public void setId(Long id) {
-        this.id = id;
-    }
+    @Column(name = "prime_etranger")
+    private Integer etranger;
+
+    @Column(name = "prime_interieur")
+    private Integer interieur;
 
     public String getFonction() {
         return fonction;
     }
+
     public void setFonction(String fonction) {
         this.fonction = fonction;
     }
 
-    public Double getEtranger() {
+    public Integer getEtranger() {
         return etranger;
     }
-    public void setEtranger(Double etranger) {
+
+    public void setEtranger(Integer etranger) {
         this.etranger = etranger;
     }
 
-    public Double getInterieur() {
+    public Integer getInterieur() {
         return interieur;
     }
-    public void setInterieur(Double interieur) {
+
+    public void setInterieur(Integer interieur) {
         this.interieur = interieur;
     }
 }

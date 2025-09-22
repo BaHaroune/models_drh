@@ -1,4 +1,6 @@
-package com.example.demo.entity;
+package com.example.demo.servlet;
+
+import com.example.demo.entity.Role;
 
 import javax.persistence.*;
 

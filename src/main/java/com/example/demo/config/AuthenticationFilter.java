@@ -1,6 +1,5 @@
 package com.example.demo.config;
 
-import com.example.demo.entity.User;
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletRequest;
